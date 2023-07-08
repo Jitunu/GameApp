@@ -1,0 +1,854 @@
+[INFO ] 2023-07-07 00:37:00.985 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@5274b77d, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@5cb35343]
+[INFO ] 2023-07-07 00:37:00.985 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-07 00:37:00.985 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@5274b77d]
+[INFO ] 2023-07-07 00:37:00.985 [http-nio-8080-exec-3] GameController - HELLO :::::: 
+[INFO ] 2023-07-07 00:37:00.985 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@5274b77d]
+[INFO ] 2023-07-07 00:37:00.985 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@5274b77d
+[INFO ] 2023-07-07 00:37:00.985 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@5274b77d,[]>
+[INFO ] 2023-07-07 00:57:25.526 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 00:57:25.568 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 48492 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 00:57:25.571 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 00:57:28.409 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 00:57:28.409 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 00:57:28.409 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 00:57:28.504 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 00:57:29.470 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 00:57:29.564 [main] GameAppApplication - Started GameAppApplication in 4.398 seconds (JVM running for 5.491)
+[INFO ] 2023-07-07 00:57:40.523 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 00:57:40.524 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 00:57:40.525 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 00:57:40.690 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 00:57:40.700 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 00:57:40.705 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@f16a6a6, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@743a281a]
+[ERROR] 2023-07-07 00:57:40.716 [http-nio-8080-exec-1] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 00:57:40.718 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with argument[s] = [com.example.GameApp.exception.GameValidationException]
+[INFO ] 2023-07-07 00:57:40.730 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with result = <400 BAD_REQUEST Bad Request,com.example.GameApp.exception.ErrorResponse@3af8032,[]>
+[INFO ] 2023-07-07 00:58:00.968 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@bd25c6b, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@515a361]
+[ERROR] 2023-07-07 00:58:08.872 [http-nio-8080-exec-3] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 00:58:08.874 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with argument[s] = [com.example.GameApp.exception.GameValidationException]
+[INFO ] 2023-07-07 00:58:08.874 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with result = <400 BAD_REQUEST Bad Request,com.example.GameApp.exception.ErrorResponse@75a62aca,[]>
+[INFO ] 2023-07-07 01:02:42.764 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 01:02:42.797 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 51772 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 01:02:42.797 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 01:02:44.300 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:02:44.300 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 01:02:44.300 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 01:02:44.378 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 01:02:45.328 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:02:45.389 [main] GameAppApplication - Started GameAppApplication in 2.921 seconds (JVM running for 4.131)
+[INFO ] 2023-07-07 01:03:02.804 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:03:02.805 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:03:02.807 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-07-07 01:03:02.969 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 01:03:02.981 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 01:03:02.982 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@3bde4a5a, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@7d1b6e6a]
+[INFO ] 2023-07-07 01:03:02.984 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-07 01:03:02.987 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@3bde4a5a]
+[INFO ] 2023-07-07 01:03:02.994 [http-nio-8080-exec-2] GameController - HELLO :::::: 
+[INFO ] 2023-07-07 01:03:02.994 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@3bde4a5a]
+[INFO ] 2023-07-07 01:03:03.000 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@3bde4a5a
+[INFO ] 2023-07-07 01:03:03.001 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@3bde4a5a,[]>
+[INFO ] 2023-07-07 01:03:15.787 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@163f576, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@fa40b2a]
+[INFO ] 2023-07-07 01:03:15.788 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-07 01:03:15.788 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@163f576]
+[INFO ] 2023-07-07 01:03:15.789 [http-nio-8080-exec-3] GameController - HELLO :::::: 
+[INFO ] 2023-07-07 01:03:15.789 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@163f576]
+[INFO ] 2023-07-07 01:03:15.789 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@163f576
+[INFO ] 2023-07-07 01:03:15.789 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@163f576,[]>
+[INFO ] 2023-07-07 01:03:25.974 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@4e85ea14, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@40420db4]
+[INFO ] 2023-07-07 01:03:25.974 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-07 01:03:25.974 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@4e85ea14]
+[INFO ] 2023-07-07 01:03:25.975 [http-nio-8080-exec-4] GameController - HELLO :::::: 
+[INFO ] 2023-07-07 01:03:25.975 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@4e85ea14]
+[INFO ] 2023-07-07 01:03:25.975 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@4e85ea14
+[INFO ] 2023-07-07 01:03:25.975 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@4e85ea14,[]>
+[INFO ] 2023-07-07 01:03:31.994 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getAllGames() with argument[s] = []
+[INFO ] 2023-07-07 01:03:31.994 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getAllGames() with argument[s] = []
+[INFO ] 2023-07-07 01:03:31.995 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.getAllGames() with result = [com.example.GameApp.model.Game@3bde4a5a, com.example.GameApp.model.Game@4e85ea14, com.example.GameApp.model.Game@163f576]
+[INFO ] 2023-07-07 01:03:31.995 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.controller.GameController.getAllGames() with result = <200 OK OK,[com.example.GameApp.model.Game@3bde4a5a, com.example.GameApp.model.Game@4e85ea14, com.example.GameApp.model.Game@163f576],[]>
+[INFO ] 2023-07-07 01:03:56.471 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getGame() with argument[s] = [Rajashree]
+[INFO ] 2023-07-07 01:03:56.471 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getGame() with argument[s] = [Rajashree]
+[INFO ] 2023-07-07 01:03:56.472 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.getGame() with result = com.example.GameApp.model.Game@4e85ea14
+[INFO ] 2023-07-07 01:03:56.472 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.controller.GameController.getGame() with result = <200 OK OK,com.example.GameApp.model.Game@4e85ea14,[]>
+[INFO ] 2023-07-07 01:04:11.121 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.controller.GameController.deleteGame() with argument[s] = [Rajashree]
+[INFO ] 2023-07-07 01:04:11.122 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.deleteGame() with argument[s] = [Rajashree]
+[INFO ] 2023-07-07 01:04:11.122 [http-nio-8080-exec-7] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.deleteGame() with result = null
+[INFO ] 2023-07-07 01:04:11.122 [http-nio-8080-exec-7] AopConfiguration - Exit: com.example.GameApp.controller.GameController.deleteGame() with result = <204 NO_CONTENT No Content,[]>
+[INFO ] 2023-07-07 01:04:18.002 [http-nio-8080-exec-8] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getAllGames() with argument[s] = []
+[INFO ] 2023-07-07 01:04:18.002 [http-nio-8080-exec-8] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getAllGames() with argument[s] = []
+[INFO ] 2023-07-07 01:04:18.003 [http-nio-8080-exec-8] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.getAllGames() with result = [com.example.GameApp.model.Game@3bde4a5a, com.example.GameApp.model.Game@163f576]
+[INFO ] 2023-07-07 01:04:18.003 [http-nio-8080-exec-8] AopConfiguration - Exit: com.example.GameApp.controller.GameController.getAllGames() with result = <200 OK OK,[com.example.GameApp.model.Game@3bde4a5a, com.example.GameApp.model.Game@163f576],[]>
+[WARN ] 2023-07-07 01:04:44.542 [http-nio-8080-exec-9] PageNotFound - Request method 'PUT' not supported
+[INFO ] 2023-07-07 01:05:22.174 [http-nio-8080-exec-10] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@82e7d2b, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@6e9825e]
+[INFO ] 2023-07-07 01:05:22.177 [http-nio-8080-exec-10] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-07 01:05:22.180 [http-nio-8080-exec-10] AopConfiguration - Enter: com.example.GameApp.controller.GameController.updateGame() with argument[s] = [Jitunu, com.example.GameApp.model.Game@82e7d2b]
+[INFO ] 2023-07-07 01:05:22.183 [http-nio-8080-exec-10] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.updateGame() with argument[s] = [Jitunu, com.example.GameApp.model.Game@82e7d2b]
+[INFO ] 2023-07-07 01:05:22.183 [http-nio-8080-exec-10] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.updateGame() with result = com.example.GameApp.model.Game@82e7d2b
+[INFO ] 2023-07-07 01:05:22.183 [http-nio-8080-exec-10] AopConfiguration - Exit: com.example.GameApp.controller.GameController.updateGame() with result = <200 OK OK,com.example.GameApp.model.Game@82e7d2b,[]>
+[INFO ] 2023-07-07 01:05:28.155 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getAllGames() with argument[s] = []
+[INFO ] 2023-07-07 01:05:28.156 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getAllGames() with argument[s] = []
+[INFO ] 2023-07-07 01:05:28.156 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.getAllGames() with result = [com.example.GameApp.model.Game@82e7d2b, com.example.GameApp.model.Game@163f576]
+[INFO ] 2023-07-07 01:05:28.156 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.controller.GameController.getAllGames() with result = <200 OK OK,[com.example.GameApp.model.Game@82e7d2b, com.example.GameApp.model.Game@163f576],[]>
+[INFO ] 2023-07-07 01:12:51.793 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 01:12:51.833 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 37936 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 01:12:51.837 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 01:12:53.189 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:12:53.189 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 01:12:53.189 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 01:12:53.252 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 01:12:54.015 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:12:54.086 [main] GameAppApplication - Started GameAppApplication in 2.615 seconds (JVM running for 3.66)
+[INFO ] 2023-07-07 01:12:59.369 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:12:59.369 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:12:59.369 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 01:13:12.310 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 01:13:12.348 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 29968 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 01:13:12.355 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 01:13:13.912 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:13:13.912 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 01:13:13.912 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 01:13:13.988 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 01:13:14.932 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:13:14.996 [main] GameAppApplication - Started GameAppApplication in 3.077 seconds (JVM running for 4.181)
+[INFO ] 2023-07-07 01:14:08.416 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:14:08.416 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:14:08.416 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 01:15:04.728 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 01:15:04.737 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 01:15:04.738 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@3d5a39ea, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@3398e523]
+[INFO ] 2023-07-07 01:15:13.528 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-07 01:15:13.532 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@3d5a39ea]
+[INFO ] 2023-07-07 01:15:13.532 [http-nio-8080-exec-6] GameController - HELLO :::::: 
+[INFO ] 2023-07-07 01:15:17.938 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@3d5a39ea]
+[INFO ] 2023-07-07 01:15:23.669 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@3d5a39ea
+[INFO ] 2023-07-07 01:15:23.669 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@3d5a39ea,[]>
+[INFO ] 2023-07-07 01:15:43.795 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with argument[s] = [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported, [], 405 METHOD_NOT_ALLOWED, ServletWebRequest: uri=/games/s;client=0:0:0:0:0:0:0:1]
+[INFO ] 2023-07-07 01:15:45.956 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with result = <405 METHOD_NOT_ALLOWED Method Not Allowed,com.example.GameApp.exception.ErrorResponse@2518a781,[]>
+[INFO ] 2023-07-07 01:18:07.986 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 01:18:08.034 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 27132 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 01:18:08.034 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 01:18:09.488 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:18:09.488 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 01:18:09.488 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 01:18:09.582 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 01:18:10.528 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 01:18:10.591 [main] GameAppApplication - Started GameAppApplication in 3.009 seconds (JVM running for 4.213)
+[INFO ] 2023-07-07 01:18:42.372 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:18:42.372 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 01:18:42.373 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 01:18:42.403 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with argument[s] = [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported, [], 405 METHOD_NOT_ALLOWED, ServletWebRequest: uri=/games/s;client=0:0:0:0:0:0:0:1]
+[INFO ] 2023-07-07 01:18:42.424 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with result = <405 METHOD_NOT_ALLOWED Method Not Allowed,com.example.GameApp.exception.ErrorResponse@201dfb80,[]>
+[INFO ] 2023-07-07 03:05:16.527 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:05:16.569 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 15288 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:05:16.569 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:05:17.968 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:05:17.968 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:05:17.984 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:05:18.048 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:05:18.947 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:05:19.020 [main] GameAppApplication - Started GameAppApplication in 2.796 seconds (JVM running for 3.868)
+[INFO ] 2023-07-07 03:05:27.934 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:05:27.934 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:05:27.935 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 03:05:27.963 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with argument[s] = [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported, [], 405 METHOD_NOT_ALLOWED, ServletWebRequest: uri=/games/s;client=0:0:0:0:0:0:0:1]
+[INFO ] 2023-07-07 03:05:27.981 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with result = <405 METHOD_NOT_ALLOWED Method Not Allowed,com.example.GameApp.exception.ErrorResponse@78a43750,[]>
+[INFO ] 2023-07-07 03:08:56.916 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:08:56.982 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 49404 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:08:56.982 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:08:58.271 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:08:58.271 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:08:58.271 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:08:58.358 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:08:59.154 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:08:59.202 [main] GameAppApplication - Started GameAppApplication in 2.595 seconds (JVM running for 3.463)
+[INFO ] 2023-07-07 03:09:02.819 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:09:02.820 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:09:02.821 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 03:09:02.845 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with argument[s] = [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported, [], 405 METHOD_NOT_ALLOWED, ServletWebRequest: uri=/games/s;client=0:0:0:0:0:0:0:1]
+[INFO ] 2023-07-07 03:09:02.861 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with result = <405 METHOD_NOT_ALLOWED Method Not Allowed,com.example.GameApp.exception.ErrorResponse@55f1d46,[]>
+[INFO ] 2023-07-07 03:09:57.182 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:09:57.213 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 53496 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:09:57.213 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:09:58.559 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:09:58.559 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:09:58.559 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:09:58.621 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:09:59.508 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:09:59.571 [main] GameAppApplication - Started GameAppApplication in 2.692 seconds (JVM running for 3.68)
+[INFO ] 2023-07-07 03:10:02.053 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:10:02.053 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:10:02.053 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 03:11:00.626 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:11:00.654 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 45184 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:11:00.654 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:11:01.954 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:11:01.954 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:11:01.954 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:11:02.024 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:11:02.855 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:11:02.927 [main] GameAppApplication - Started GameAppApplication in 2.634 seconds (JVM running for 3.586)
+[INFO ] 2023-07-07 03:11:05.271 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:11:05.271 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:11:05.272 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 03:13:32.235 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:13:32.275 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 53324 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:13:32.280 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:13:33.802 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:13:33.802 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:13:33.802 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:13:33.897 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:13:34.799 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:13:34.877 [main] GameAppApplication - Started GameAppApplication in 2.927 seconds (JVM running for 4.097)
+[INFO ] 2023-07-07 03:13:36.909 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:13:36.909 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:13:36.910 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 03:14:34.452 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:14:34.501 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 42100 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:14:34.501 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:14:36.062 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:14:36.062 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:14:36.062 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:14:36.141 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:14:37.184 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:14:37.247 [main] GameAppApplication - Started GameAppApplication in 3.345 seconds (JVM running for 4.498)
+[INFO ] 2023-07-07 03:14:41.983 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:14:41.983 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:14:41.986 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2023-07-07 03:16:38.912 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:16:38.952 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 11216 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:16:38.955 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:16:40.496 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:16:40.496 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:16:40.496 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:16:40.575 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:16:41.545 [main] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-07-07 03:17:48.651 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:17:48.693 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 32268 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:17:48.699 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:17:50.032 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:17:50.032 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:17:50.032 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:17:50.095 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:17:50.916 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:17:51.026 [main] GameAppApplication - Started GameAppApplication in 2.74 seconds (JVM running for 3.701)
+[INFO ] 2023-07-07 03:17:54.811 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:17:54.811 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:17:54.812 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[WARN ] 2023-07-07 03:17:54.827 [http-nio-8080-exec-2] PageNotFound - No mapping for GET /games/s/dfef
+[WARN ] 2023-07-07 03:18:47.830 [http-nio-8080-exec-1] PageNotFound - No mapping for POST /games/s/dfef
+[INFO ] 2023-07-07 03:21:14.015 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:21:14.055 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 53500 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:21:14.055 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:21:15.584 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:21:15.584 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:21:15.584 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:21:15.694 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:21:16.485 [main] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-07-07 03:23:27.533 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:23:27.586 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 27912 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:23:27.591 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:23:29.462 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:23:29.462 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:23:29.462 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:23:29.541 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:23:30.721 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:23:30.804 [main] GameAppApplication - Started GameAppApplication in 3.586 seconds (JVM running for 4.93)
+[INFO ] 2023-07-07 03:23:33.059 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:23:33.066 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:23:33.066 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 03:23:49.246 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with argument[s] = [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported, [], 405 METHOD_NOT_ALLOWED, ServletWebRequest: uri=/games/;client=0:0:0:0:0:0:0:1]
+[INFO ] 2023-07-07 03:23:51.989 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleHttpRequestMethodNotSupported() with result = <405 METHOD_NOT_ALLOWED Method Not Allowed,com.example.GameApp.exception.ErrorResponse@5e8673a4,[]>
+[WARN ] 2023-07-07 03:24:02.227 [http-nio-8080-exec-3] PageNotFound - No mapping for GET /games/sfdsf/sd
+[INFO ] 2023-07-07 03:30:23.214 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:30:23.267 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 55540 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:30:23.273 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:30:25.126 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:30:25.126 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:30:25.126 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:30:25.222 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:30:26.567 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:30:26.661 [main] GameAppApplication - Started GameAppApplication in 3.86 seconds (JVM running for 5.358)
+[INFO ] 2023-07-07 03:30:31.349 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:30:31.349 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:30:31.351 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[WARN ] 2023-07-07 03:30:31.369 [http-nio-8080-exec-1] PageNotFound - No mapping for GET /games/sfdsf/sd
+[INFO ] 2023-07-07 03:30:39.922 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleNoHandlerFoundException() with argument[s] = [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /games/sfdsf/sd, [], 404 NOT_FOUND, ServletWebRequest: uri=/games/sfdsf/sd;client=0:0:0:0:0:0:0:1]
+[INFO ] 2023-07-07 03:30:40.990 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleNoHandlerFoundException() with result = <404 NOT_FOUND Not Found,com.example.GameApp.exception.ErrorResponse@8e0bb0d,[]>
+[WARN ] 2023-07-07 03:31:02.973 [http-nio-8080-exec-3] PageNotFound - No mapping for GET /games/sfdsf/sd
+[INFO ] 2023-07-07 03:31:02.975 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleNoHandlerFoundException() with argument[s] = [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /games/sfdsf/sd, [], 404 NOT_FOUND, ServletWebRequest: uri=/games/sfdsf/sd;client=0:0:0:0:0:0:0:1]
+[INFO ] 2023-07-07 03:31:02.976 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleNoHandlerFoundException() with result = <404 NOT_FOUND Not Found,com.example.GameApp.exception.ErrorResponse@69a905eb,[]>
+[INFO ] 2023-07-07 03:31:11.944 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 03:31:11.949 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 03:31:11.951 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@668755b0, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@52def7bb]
+[ERROR] 2023-07-07 03:31:11.954 [http-nio-8080-exec-4] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:31:11.956 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:31:11.956 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@39833c93,[]>
+[INFO ] 2023-07-07 03:31:27.077 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@45f6af1, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@a98940a]
+[ERROR] 2023-07-07 03:31:27.078 [http-nio-8080-exec-7] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:31:27.079 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:31:27.079 [http-nio-8080-exec-7] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@ea70181,[]>
+[INFO ] 2023-07-07 03:32:01.499 [http-nio-8080-exec-8] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@9e6ece9, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@72113a5]
+[ERROR] 2023-07-07 03:32:07.082 [http-nio-8080-exec-8] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:32:07.087 [http-nio-8080-exec-8] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:32:07.087 [http-nio-8080-exec-8] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@31e8799,[]>
+[INFO ] 2023-07-07 03:33:00.743 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:33:00.784 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 15844 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:33:00.787 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:33:02.320 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:33:02.320 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:33:02.320 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:33:02.431 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:33:03.351 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:33:03.412 [main] GameAppApplication - Started GameAppApplication in 2.978 seconds (JVM running for 4.144)
+[INFO ] 2023-07-07 03:33:05.001 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:33:05.001 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:33:05.002 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 03:33:05.143 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 03:33:05.158 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 03:33:05.160 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@660e4981, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@273363f0]
+[ERROR] 2023-07-07 03:33:11.973 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:33:11.974 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:33:11.980 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@6f0ec4db,[]>
+[INFO ] 2023-07-07 03:33:29.786 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@1a93c0c0, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@14542de2]
+[ERROR] 2023-07-07 03:34:05.807 [http-nio-8080-exec-4] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:34:05.808 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:34:34.503 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@64767494,[]>
+[INFO ] 2023-07-07 03:34:41.772 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getGame() with argument[s] = [ww]
+[INFO ] 2023-07-07 03:34:41.778 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getGame() with argument[s] = [ww]
+[ERROR] 2023-07-07 03:34:45.538 [http-nio-8080-exec-6] AopConfiguration - Exception in com.example.GameApp.service.GameServiceImpl.getGame() with cause = NULL
+[ERROR] 2023-07-07 03:34:45.538 [http-nio-8080-exec-6] AopConfiguration - Exception in com.example.GameApp.controller.GameController.getGame() with cause = NULL
+[INFO ] 2023-07-07 03:34:45.539 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with argument[s] = [com.example.GameApp.exception.NameNotFoundException]
+[INFO ] 2023-07-07 03:34:45.540 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with result = <404 NOT_FOUND Not Found,com.example.GameApp.exception.ErrorResponse@27cca12,[]>
+[INFO ] 2023-07-07 03:35:19.822 [http-nio-8080-exec-8] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getGame() with argument[s] = [ww]
+[INFO ] 2023-07-07 03:35:19.823 [http-nio-8080-exec-8] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getGame() with argument[s] = [ww]
+[ERROR] 2023-07-07 03:35:19.823 [http-nio-8080-exec-8] AopConfiguration - Exception in com.example.GameApp.service.GameServiceImpl.getGame() with cause = NULL
+[ERROR] 2023-07-07 03:35:19.823 [http-nio-8080-exec-8] AopConfiguration - Exception in com.example.GameApp.controller.GameController.getGame() with cause = NULL
+[INFO ] 2023-07-07 03:35:19.824 [http-nio-8080-exec-8] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with argument[s] = [com.example.GameApp.exception.NameNotFoundException]
+[INFO ] 2023-07-07 03:35:25.375 [http-nio-8080-exec-8] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with result = <404 NOT_FOUND Not Found,com.example.GameApp.exception.ErrorResponse@4677a0e6,[]>
+[INFO ] 2023-07-07 03:35:36.526 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getGame() with argument[s] = [ww]
+[INFO ] 2023-07-07 03:35:36.526 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getGame() with argument[s] = [ww]
+[ERROR] 2023-07-07 03:35:42.711 [http-nio-8080-exec-7] AopConfiguration - Exception in com.example.GameApp.service.GameServiceImpl.getGame() with cause = NULL
+[ERROR] 2023-07-07 03:35:42.712 [http-nio-8080-exec-7] AopConfiguration - Exception in com.example.GameApp.controller.GameController.getGame() with cause = NULL
+[INFO ] 2023-07-07 03:35:42.712 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with argument[s] = [com.example.GameApp.exception.NameNotFoundException]
+[INFO ] 2023-07-07 03:35:45.951 [http-nio-8080-exec-7] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with result = <404 NOT_FOUND Not Found,com.example.GameApp.exception.ErrorResponse@17920915,[]>
+[INFO ] 2023-07-07 03:35:54.923 [http-nio-8080-exec-10] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@7f465e16, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@7181bf8e]
+[ERROR] 2023-07-07 03:36:05.680 [http-nio-8080-exec-10] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:36:05.680 [http-nio-8080-exec-10] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:37:17.169 [http-nio-8080-exec-10] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@75be3566,[]>
+[INFO ] 2023-07-07 03:37:42.878 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@5cb81a7b, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@273cc79c]
+[ERROR] 2023-07-07 03:37:51.408 [http-nio-8080-exec-1] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:37:51.408 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:37:51.408 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@724448de,[]>
+[INFO ] 2023-07-07 03:38:43.257 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:38:43.297 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 52840 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:38:43.297 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:38:44.699 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:38:44.699 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:38:44.699 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:38:44.786 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:38:45.737 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:38:45.817 [main] GameAppApplication - Started GameAppApplication in 2.918 seconds (JVM running for 4.039)
+[INFO ] 2023-07-07 03:38:50.453 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:38:50.453 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:38:50.453 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 03:38:50.616 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 03:38:50.630 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 03:38:50.644 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@5cff88fd, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@20362bfc]
+[ERROR] 2023-07-07 03:38:59.344 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:38:59.350 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:39:20.875 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@6306dd7b,[]>
+[INFO ] 2023-07-07 03:39:36.377 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@5d55c85b, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@53922d81]
+[ERROR] 2023-07-07 03:39:36.378 [http-nio-8080-exec-4] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:39:36.379 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:39:40.981 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@57ada32b,[]>
+[INFO ] 2023-07-07 03:40:53.628 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:40:53.685 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 21468 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:40:53.685 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:40:55.010 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:40:55.010 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:40:55.010 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:40:55.089 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:40:55.851 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:40:55.914 [main] GameAppApplication - Started GameAppApplication in 2.629 seconds (JVM running for 3.665)
+[INFO ] 2023-07-07 03:40:58.312 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:40:58.312 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:40:58.312 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 03:40:58.443 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 03:40:58.452 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 03:40:58.452 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@7c32bdd8, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@52f37d73]
+[ERROR] 2023-07-07 03:40:58.452 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:40:58.452 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:41:02.053 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@12c03f87,[]>
+[INFO ] 2023-07-07 03:45:53.414 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:45:53.456 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 52896 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:45:53.461 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:45:56.336 [main] GameAppApplication - Started GameAppApplication in 3.227 seconds (JVM running for 4.677)
+[INFO ] 2023-07-07 03:47:24.479 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 03:47:24.562 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 23864 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 03:47:24.577 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 03:47:28.235 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:47:28.235 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 03:47:28.235 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 03:47:28.456 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 03:47:30.669 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 03:47:30.827 [main] GameAppApplication - Started GameAppApplication in 7.078 seconds (JVM running for 9.947)
+[INFO ] 2023-07-07 03:47:46.875 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:47:46.875 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 03:47:46.875 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 03:47:47.048 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 03:47:47.064 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 03:47:47.064 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@17260ce0, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@1da7f48f]
+[ERROR] 2023-07-07 03:47:47.064 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 03:47:47.080 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 03:47:54.180 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@71c2d526,[]>
+[INFO ] 2023-07-07 16:24:27.681 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:24:27.729 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 36172 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:24:27.729 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:24:29.918 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:24:29.918 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:24:29.918 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:24:30.023 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:24:31.296 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:24:31.391 [main] GameAppApplication - Started GameAppApplication in 4.136 seconds (JVM running for 6.804)
+[INFO ] 2023-07-07 16:24:58.616 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:24:58.616 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:24:58.616 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 16:24:58.769 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:24:58.780 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:24:58.783 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@4db47f78, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@71cd2676]
+[ERROR] 2023-07-07 16:24:58.785 [http-nio-8080-exec-1] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:24:58.797 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with argument[s] = [com.example.GameApp.exception.GameValidationException]
+[INFO ] 2023-07-07 16:25:04.116 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with result = <400 BAD_REQUEST Bad Request,com.example.GameApp.exception.ErrorResponse@6b0806,[]>
+[INFO ] 2023-07-07 16:27:25.394 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:27:25.464 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 41168 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:27:25.470 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:27:29.638 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:27:29.644 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:27:29.646 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:27:29.936 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:27:31.587 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:27:31.714 [main] GameAppApplication - Started GameAppApplication in 6.89 seconds (JVM running for 9.205)
+[INFO ] 2023-07-07 16:27:36.315 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:27:36.315 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:27:36.318 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-07-07 16:27:36.383 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getGame() with argument[s] = [das]
+[INFO ] 2023-07-07 16:27:36.403 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getGame() with argument[s] = [das]
+[ERROR] 2023-07-07 16:27:36.431 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.service.GameServiceImpl.getGame() with cause = NULL
+[ERROR] 2023-07-07 16:27:36.432 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.controller.GameController.getGame() with cause = NULL
+[INFO ] 2023-07-07 16:27:36.434 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with argument[s] = [com.example.GameApp.exception.NameNotFoundException]
+[INFO ] 2023-07-07 16:27:39.814 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleNotFoundException() with result = <404 NOT_FOUND Not Found,com.example.GameApp.exception.ErrorResponse@734e8292,[]>
+[INFO ] 2023-07-07 16:27:49.069 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:27:49.078 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:27:49.082 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@3deff99a, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@1e61f3b0]
+[ERROR] 2023-07-07 16:27:49.083 [http-nio-8080-exec-5] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:27:49.084 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 16:31:56.455 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@2f6a9f16,[]>
+[INFO ] 2023-07-07 16:34:22.919 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:34:22.970 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 57540 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:34:22.974 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:34:24.798 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:34:24.798 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:34:24.798 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:34:24.907 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:34:26.039 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:34:26.138 [main] GameAppApplication - Started GameAppApplication in 3.555 seconds (JVM running for 5.186)
+[INFO ] 2023-07-07 16:34:35.710 [http-nio-8080-exec-3] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:34:35.710 [http-nio-8080-exec-3] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:34:35.712 [http-nio-8080-exec-3] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 16:34:35.900 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:34:35.912 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:34:35.914 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@a8d1368, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@45a55779]
+[ERROR] 2023-07-07 16:34:35.931 [http-nio-8080-exec-3] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:34:35.934 [http-nio-8080-exec-3] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 16:34:39.300 [http-nio-8080-exec-3] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@d451fee,[]>
+[INFO ] 2023-07-07 16:35:28.021 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:35:28.078 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 51412 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:35:28.094 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:35:30.219 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:35:30.219 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:35:30.219 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:35:30.345 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:35:31.608 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:35:31.687 [main] GameAppApplication - Started GameAppApplication in 4.164 seconds (JVM running for 6.009)
+[INFO ] 2023-07-07 16:35:36.361 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:35:36.361 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:35:36.361 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-07 16:35:36.529 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:35:36.535 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:35:36.552 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@5319fb02, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@583322cb]
+[ERROR] 2023-07-07 16:35:36.552 [http-nio-8080-exec-1] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:35:36.567 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 16:37:11.270 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@22b09d8e,[]>
+[INFO ] 2023-07-07 16:37:19.940 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:37:19.993 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 34764 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:37:19.998 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:37:21.662 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:37:21.662 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:37:21.662 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:37:21.758 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:37:22.734 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:37:22.813 [main] GameAppApplication - Started GameAppApplication in 3.196 seconds (JVM running for 4.695)
+[INFO ] 2023-07-07 16:37:26.026 [http-nio-8080-exec-4] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:37:26.026 [http-nio-8080-exec-4] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:37:26.028 [http-nio-8080-exec-4] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 16:37:26.176 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:37:26.187 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:37:26.189 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@5f5ff034, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@581e026d]
+[ERROR] 2023-07-07 16:37:26.198 [http-nio-8080-exec-4] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:37:26.200 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with argument[s] = [com.example.GameApp.exception.GameValidationException]
+[INFO ] 2023-07-07 16:38:47.446 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with result = <400 BAD_REQUEST Bad Request,com.example.GameApp.exception.ErrorResponse@48ec68d2,[]>
+[INFO ] 2023-07-07 16:39:09.221 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:39:09.291 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 57596 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:39:09.313 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:39:11.497 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:39:11.513 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:39:11.513 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:39:11.608 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:39:12.593 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:39:12.719 [main] GameAppApplication - Started GameAppApplication in 3.992 seconds (JVM running for 5.763)
+[INFO ] 2023-07-07 16:41:04.687 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:41:04.688 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:41:04.693 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2023-07-07 16:41:04.845 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:41:04.856 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:41:04.858 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@7b30076b, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@4b182686]
+[ERROR] 2023-07-07 16:41:04.870 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:41:04.872 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 16:41:38.641 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with result = <500 INTERNAL_SERVER_ERROR Internal Server Error,com.example.GameApp.exception.ErrorResponse@30d70dc2,[]>
+[INFO ] 2023-07-07 16:41:45.351 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:41:45.401 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 49380 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:41:45.404 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:41:48.343 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:41:48.343 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:41:48.343 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:41:48.453 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:41:49.498 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:41:49.577 [main] GameAppApplication - Started GameAppApplication in 4.723 seconds (JVM running for 6.197)
+[INFO ] 2023-07-07 16:41:57.293 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:41:57.294 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:41:57.295 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 16:41:57.516 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:41:57.539 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:41:57.542 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@19a518bb, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@7e9761de]
+[ERROR] 2023-07-07 16:41:57.556 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:41:57.559 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[ERROR] 2023-07-07 16:42:01.529 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with cause = com.example.GameApp.exception.GameValidationException
+[ERROR] 2023-07-07 16:42:01.537 [http-nio-8080-exec-2] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.] with root cause
+com.example.GameApp.exception.GameValidationException: null
+	at com.example.GameApp.validator.GameValidator.isValid(GameValidator.java:45) ~[classes/:?]
+	at com.example.GameApp.validator.GameValidator.isValid(GameValidator.java:18) ~[classes/:?]
+	at com.example.GameApp.validator.GameValidator$$FastClassBySpringCGLIB$$9b490594.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.example.GameApp.configuration.AopConfiguration.logAround(AopConfiguration.java:69) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.example.GameApp.validator.GameValidator$$EnhancerBySpringCGLIB$$f4c7231a.isValid(<generated>) ~[classes/:?]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateSingleConstraint(ConstraintTree.java:180) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:62) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:109) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:65) ~[spring-boot-autoconfigure-2.4.7.jar:2.4.7]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:895) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:245) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:137) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97) ~[spring-boot-actuator-2.4.7.jar:2.4.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[INFO ] 2023-07-07 16:42:12.304 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@1a93c0c0, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@14542de2]
+[ERROR] 2023-07-07 16:42:12.304 [http-nio-8080-exec-6] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:42:12.305 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[ERROR] 2023-07-07 16:42:51.993 [http-nio-8080-exec-6] AopConfiguration - Exception in com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with cause = com.example.GameApp.exception.GameValidationException
+[ERROR] 2023-07-07 16:42:52.000 [http-nio-8080-exec-6] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.] with root cause
+com.example.GameApp.exception.GameValidationException: null
+	at com.example.GameApp.validator.GameValidator.isValid(GameValidator.java:45) ~[classes/:?]
+	at com.example.GameApp.validator.GameValidator.isValid(GameValidator.java:18) ~[classes/:?]
+	at com.example.GameApp.validator.GameValidator$$FastClassBySpringCGLIB$$9b490594.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.example.GameApp.configuration.AopConfiguration.logAround(AopConfiguration.java:69) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.example.GameApp.validator.GameValidator$$EnhancerBySpringCGLIB$$f4c7231a.isValid(<generated>) ~[classes/:?]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateSingleConstraint(ConstraintTree.java:180) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:62) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:109) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:65) ~[spring-boot-autoconfigure-2.4.7.jar:2.4.7]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:895) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:245) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:137) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97) ~[spring-boot-actuator-2.4.7.jar:2.4.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[INFO ] 2023-07-07 16:43:12.117 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:43:12.199 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 48624 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:43:12.204 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:43:15.593 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:43:15.594 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:43:15.595 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:43:15.755 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:43:17.316 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:43:17.439 [main] GameAppApplication - Started GameAppApplication in 5.971 seconds (JVM running for 12.7)
+[INFO ] 2023-07-07 16:43:49.034 [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:43:49.036 [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:43:49.037 [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 16:43:49.382 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:43:49.404 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:43:49.408 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@72e832e8, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@524bb530]
+[ERROR] 2023-07-07 16:43:49.426 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:43:49.431 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[ERROR] 2023-07-07 16:43:53.099 [http-nio-8080-exec-2] AopConfiguration - Exception in com.example.GameApp.exception.GlobalExceptionHandlers.handleAllException() with cause = NULL
+[ERROR] 2023-07-07 16:43:53.106 [http-nio-8080-exec-2] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.] with root cause
+com.example.GameApp.exception.GameValidationException: null
+	at com.example.GameApp.validator.GameValidator.isValid(GameValidator.java:45) ~[classes/:?]
+	at com.example.GameApp.validator.GameValidator.isValid(GameValidator.java:18) ~[classes/:?]
+	at com.example.GameApp.validator.GameValidator$$FastClassBySpringCGLIB$$9b490594.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.example.GameApp.configuration.AopConfiguration.logAround(AopConfiguration.java:69) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.example.GameApp.validator.GameValidator$$EnhancerBySpringCGLIB$$bcab5381.isValid(<generated>) ~[classes/:?]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateSingleConstraint(ConstraintTree.java:180) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:62) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:109) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:65) ~[spring-boot-autoconfigure-2.4.7.jar:2.4.7]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:895) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:245) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:137) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97) ~[spring-boot-actuator-2.4.7.jar:2.4.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[INFO ] 2023-07-07 16:47:26.204 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-07 16:47:26.257 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 13864 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-07 16:47:26.261 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-07 16:47:28.061 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:47:28.061 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-07 16:47:28.061 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-07 16:47:28.140 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-07 16:47:28.894 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-07 16:47:28.974 [main] GameAppApplication - Started GameAppApplication in 3.126 seconds (JVM running for 4.415)
+[INFO ] 2023-07-07 16:47:37.921 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:47:37.921 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-07 16:47:37.922 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-07 16:47:38.194 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-07 16:47:38.206 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-07 16:47:38.209 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@623e9fde, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@2cc2e6b8]
+[ERROR] 2023-07-07 16:47:38.221 [http-nio-8080-exec-1] AopConfiguration - Exception in com.example.GameApp.validator.GameValidator.isValid() with cause = NULL
+[INFO ] 2023-07-07 16:47:38.223 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with argument[s] = [javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.]
+[INFO ] 2023-07-07 16:47:38.231 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.exception.GlobalExceptionHandlers.handleGameValidationException() with result = <400 BAD_REQUEST Bad Request,com.example.GameApp.exception.ErrorResponse@5e0a6bc1,[]>

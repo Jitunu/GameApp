@@ -1,0 +1,107 @@
+[INFO ] 2023-07-09 02:57:44.762 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 02:57:44.813 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 41404 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 02:57:44.818 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 02:57:46.951 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 02:57:46.952 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-09 02:57:46.984 [main] GameControllerTest - Started GameControllerTest in 2.614 seconds (JVM running for 4.912)
+[INFO ] 2023-07-09 02:58:19.499 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 02:58:19.541 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 51756 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 02:58:19.545 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 02:58:21.528 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 02:58:21.529 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-09 02:58:21.563 [main] GameControllerTest - Started GameControllerTest in 2.391 seconds (JVM running for 4.75)
+[INFO ] 2023-07-09 03:01:47.805 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:01:47.847 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 19912 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:01:47.852 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:01:49.742 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:01:49.743 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-09 03:01:49.765 [main] GameControllerTest - Started GameControllerTest in 2.251 seconds (JVM running for 4.287)
+[INFO ] 2023-07-09 03:02:43.176 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:02:43.242 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 53976 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:02:43.250 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:02:45.397 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:02:45.398 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-07-09 03:02:45.431 [main] GameControllerTest - Started GameControllerTest in 2.643 seconds (JVM running for 5.428)
+[INFO ] 2023-07-09 03:03:10.338 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:03:10.379 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 53640 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:03:10.385 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:03:12.197 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:03:12.201 [main] TestDispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2023-07-09 03:03:12.225 [main] GameControllerTest - Started GameControllerTest in 2.288 seconds (JVM running for 4.65)
+[WARN ] 2023-07-09 03:03:12.553 [main] PageNotFound - No mapping for GET /games/test/test
+[INFO ] 2023-07-09 03:04:15.406 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:04:15.442 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 55856 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:04:15.446 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:04:17.200 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:04:17.203 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-07-09 03:04:17.238 [main] GameControllerTest - Started GameControllerTest in 2.146 seconds (JVM running for 4.099)
+[INFO ] 2023-07-09 03:04:29.842 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:04:29.883 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 7448 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:04:29.889 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:04:32.094 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:04:32.097 [main] TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2023-07-09 03:04:32.155 [main] GameControllerTest - Started GameControllerTest in 2.601 seconds (JVM running for 4.447)
+[INFO ] 2023-07-09 03:08:25.907 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:08:25.957 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 57272 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:08:25.961 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:08:28.367 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:08:28.367 [main] TestDispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-09 03:08:28.407 [main] GameControllerTest - Started GameControllerTest in 2.939 seconds (JVM running for 5.678)
+[INFO ] 2023-07-09 03:35:08.611 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:35:08.650 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 21156 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:35:08.654 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:35:10.779 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:35:10.785 [main] TestDispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2023-07-09 03:35:10.826 [main] GameControllerTest - Started GameControllerTest in 2.545 seconds (JVM running for 4.703)
+[INFO ] 2023-07-09 03:39:15.990 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:39:16.022 [main] GameControllerTest - Starting GameControllerTest using Java 20.0.1 on DESKTOP-DVALHBA with PID 23520 (started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:39:16.022 [main] GameControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:39:17.881 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2023-07-09 03:39:17.881 [main] TestDispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-09 03:39:17.912 [main] GameControllerTest - Started GameControllerTest in 2.231 seconds (JVM running for 3.944)
+[INFO ] 2023-07-09 03:52:03.332 [background-preinit] Version - HV000001: Hibernate Validator 6.1.7.Final
+[INFO ] 2023-07-09 03:52:03.376 [main] GameAppApplication - Starting GameAppApplication using Java 20.0.1 on DESKTOP-DVALHBA with PID 56456 (C:\Users\JITUNU\IdeaProjects\GameApp\target\classes started by JITUNU in C:\Users\JITUNU\IdeaProjects\GameApp)
+[INFO ] 2023-07-09 03:52:03.384 [main] GameAppApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2023-07-09 03:52:04.932 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-09 03:52:04.932 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-07-09 03:52:04.932 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+[INFO ] 2023-07-09 03:52:05.019 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-07-09 03:52:05.951 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-07-09 03:52:06.015 [main] GameAppApplication - Started GameAppApplication in 3.018 seconds (JVM running for 4.081)
+[INFO ] 2023-07-09 03:52:32.873 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-07-09 03:52:32.873 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-07-09 03:52:32.873 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-07-09 03:52:33.148 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.initialize() with argument[s] = [@com.example.GameApp.validator.GameValidation(message="Invalid Request", payload={}, groups={})]
+[INFO ] 2023-07-09 03:52:33.172 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.initialize() with result = null
+[INFO ] 2023-07-09 03:52:33.180 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@21992c83, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@3513461d]
+[INFO ] 2023-07-09 03:52:33.180 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-09 03:52:33.189 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@21992c83]
+[INFO ] 2023-07-09 03:52:33.205 [http-nio-8080-exec-1] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@21992c83]
+[INFO ] 2023-07-09 03:52:33.221 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@21992c83
+[INFO ] 2023-07-09 03:52:33.221 [http-nio-8080-exec-1] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@21992c83,[]>
+[INFO ] 2023-07-09 03:52:38.457 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@4eaa69cd, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@406d8e68]
+[INFO ] 2023-07-09 03:52:38.457 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-09 03:52:38.457 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@4eaa69cd]
+[INFO ] 2023-07-09 03:52:38.457 [http-nio-8080-exec-2] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@4eaa69cd]
+[INFO ] 2023-07-09 03:52:38.457 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@4eaa69cd
+[INFO ] 2023-07-09 03:52:38.457 [http-nio-8080-exec-2] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@4eaa69cd,[]>
+[INFO ] 2023-07-09 03:52:45.076 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@2678ff23, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@28bf059c]
+[INFO ] 2023-07-09 03:52:45.076 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-09 03:52:45.076 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.controller.GameController.createGame() with argument[s] = [com.example.GameApp.model.Game@2678ff23]
+[INFO ] 2023-07-09 03:52:45.076 [http-nio-8080-exec-4] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.createGame() with argument[s] = [com.example.GameApp.model.Game@2678ff23]
+[INFO ] 2023-07-09 03:52:45.076 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.createGame() with result = com.example.GameApp.model.Game@2678ff23
+[INFO ] 2023-07-09 03:52:45.076 [http-nio-8080-exec-4] AopConfiguration - Exit: com.example.GameApp.controller.GameController.createGame() with result = <201 CREATED Created,com.example.GameApp.model.Game@2678ff23,[]>
+[INFO ] 2023-07-09 03:52:49.280 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.controller.GameController.getAllGames() with argument[s] = []
+[INFO ] 2023-07-09 03:52:49.281 [http-nio-8080-exec-6] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.getAllGames() with argument[s] = []
+[INFO ] 2023-07-09 03:52:49.281 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.getAllGames() with result = [com.example.GameApp.model.Game@21992c83, com.example.GameApp.model.Game@2678ff23, com.example.GameApp.model.Game@4eaa69cd]
+[INFO ] 2023-07-09 03:52:49.281 [http-nio-8080-exec-6] AopConfiguration - Exit: com.example.GameApp.controller.GameController.getAllGames() with result = <200 OK OK,[com.example.GameApp.model.Game@21992c83, com.example.GameApp.model.Game@2678ff23, com.example.GameApp.model.Game@4eaa69cd],[]>
+[INFO ] 2023-07-09 03:53:02.783 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.validator.GameValidator.isValid() with argument[s] = [com.example.GameApp.model.Game@147d1158, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@4a9e96f8]
+[INFO ] 2023-07-09 03:53:02.783 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.validator.GameValidator.isValid() with result = true
+[INFO ] 2023-07-09 03:53:02.783 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.controller.GameController.updateGame() with argument[s] = [Rajashree, com.example.GameApp.model.Game@147d1158]
+[INFO ] 2023-07-09 03:53:02.783 [http-nio-8080-exec-5] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.updateGame() with argument[s] = [Rajashree, com.example.GameApp.model.Game@147d1158]
+[INFO ] 2023-07-09 03:53:02.783 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.updateGame() with result = com.example.GameApp.model.Game@147d1158
+[INFO ] 2023-07-09 03:53:02.783 [http-nio-8080-exec-5] AopConfiguration - Exit: com.example.GameApp.controller.GameController.updateGame() with result = <200 OK OK,com.example.GameApp.model.Game@147d1158,[]>
+[INFO ] 2023-07-09 03:53:32.408 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.controller.GameController.deleteGame() with argument[s] = [Rajashree]
+[INFO ] 2023-07-09 03:53:32.408 [http-nio-8080-exec-7] AopConfiguration - Enter: com.example.GameApp.service.GameServiceImpl.deleteGame() with argument[s] = [Rajashree]
+[INFO ] 2023-07-09 03:53:32.408 [http-nio-8080-exec-7] AopConfiguration - Exit: com.example.GameApp.service.GameServiceImpl.deleteGame() with result = null
+[INFO ] 2023-07-09 03:53:32.408 [http-nio-8080-exec-7] AopConfiguration - Exit: com.example.GameApp.controller.GameController.deleteGame() with result = <204 NO_CONTENT No Content,[]>
